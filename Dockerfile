@@ -14,4 +14,4 @@ RUN pip install -r requeriments.txt
 EXPOSE 80
 
 ENTRYPOINT ["/usr/bin/dumb-init"]
-CMD ["python", "app.py"]
+CMD ["/usr/bin/python3", "app.py"]
