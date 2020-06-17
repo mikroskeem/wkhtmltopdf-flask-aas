@@ -1,5 +1,5 @@
 from flask import Flask, Response, request
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 from paste.translogger import TransLogger
 import pdfkit
 
